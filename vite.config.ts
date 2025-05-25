@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 // https://vitejs.dev/config/
 export default defineConfig({
   // Configuração para GitHub Pages
-  base: process.env.NODE_ENV === 'production' ? '/project-red/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/project-red-frontend/' : '/',
   plugins: [
     vue(),
     VitePWA({
